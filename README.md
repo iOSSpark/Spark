@@ -9,16 +9,16 @@
 
 ## Overview
 ### Description
-[Description of your app]
+Spark is an iOS app that connects electric/hybrid drivers to the nearest charging station.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Search app, Car app
+- **Mobile:** iOS app
+- **Story:** User is about to drive in their electric car when they notice they need a quick charge. They open up their Spark app to search for nearby stations so that they can get going.
+- **Market:** Electric/Hybrid driver who drives frequently
+- **Habit:** App is used weekly/monthly
+- **Scope:** User can search from anywhere.
 
 ## Product Spec
 
@@ -26,39 +26,50 @@
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can search for nearby charger stations so they can easily charge their vehicle.
+* User can search for a charging location based on an address they provide so that they can be knowledgeable of nearby stations.
+* User can see description of station so that they have all the information to make an informed decision
+* Users can Sign-in/Sign-up so that they can access potential features like "Saved Locations"
+* User can update username and password.
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Users can save locations so that they can reference it later
+* User can receive notifications when station is in a specified range so that they have continous access to information.
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
+* Sign-in/Signup screen
    * [list associated required story here]
    * ...
-* [list second screen here]
+* Search current location and search specified location screen
    * [list associated required story here]
    * ...
-
+ * Charger station details screen
+   * [list associated required story here]
+   * ...
+ * Profile details screen
+   * [list associated required story here]
+   * ...
+ * Saved locations screen(optional)
+   * [list associated required story here]
+   * ...
+  
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Search Tab
+* Saved Locations Tab
+* Profile Tab
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Sign-in/Sign-up -> Search for stations screen
+* Search for stations screen -> Station details -> Profile screen -> Saved locations screen(optional)
+* Station details -> Search for stations screen -> Profile screen -> Saved locations screen(optional)
+* Profile screen -> Update password page->  Search for stations screen -> Saved locations screen(optional)
+* Saved locations screen(optional) -> Profile screen -> Search for stations screen -> Station details
 
 ## Wireframes
 ![Frame 1 (1)](https://user-images.githubusercontent.com/40500769/199324214-54d07e3c-5c30-4c8f-a73c-5c4d3c461e31.png)
@@ -66,10 +77,24 @@
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+- Sign-in/Sign-up
+- Saved Locations
 
 ![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/40500769/199324218-b345f044-0a9a-42b6-a534-fb17ce1d1f72.png)
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- Sign-in screen
+  - (Read/GET) Query user account based on unique username and password
+- Sign-up screen
+  - (Create/POST) Query user account based on unique username and password
+- Profile screen
+  - (Update/PUT) Query user account based on unique username and password
+  - (Update/PUT) Query user account based on unique username and password
+  - (Read/GET) Query user account based on unique username and password
+- Search based on location screen
+  - (Read/GET) Query user account based on unique username and password
+  - (Create/POST) Query user account based on unique username and password
+- Station details screen
+  - (Read/GET) Query user account based on unique username and password
+- Saved locations screen (optional)
+  - (Read/GET) Query user account based on unique username and password
+  - (Delete) Query user account based on unique username and password
