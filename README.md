@@ -72,6 +72,8 @@
 [This section will be completed in Unit 9]
 ### Models
 [Add table of models]
+
+![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/40500769/199324218-b345f044-0a9a-42b6-a534-fb17ce1d1f72.png)
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
