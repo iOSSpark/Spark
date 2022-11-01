@@ -61,12 +61,7 @@
    * ...
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-
-![Screenshot](Untitled Diagram.drawio (2).png)
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
+![Frame 1 (1)](https://user-images.githubusercontent.com/40500769/199324214-54d07e3c-5c30-4c8f-a73c-5c4d3c461e31.png)
 
 ## Schema 
 [This section will be completed in Unit 9]
