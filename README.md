@@ -63,7 +63,7 @@
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 
-![Screenshot](screenshot.png)
+![Screenshot](Untitled Diagram.drawio (2).png)
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
