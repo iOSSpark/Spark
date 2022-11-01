@@ -63,8 +63,7 @@
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 
-![alt text]([http://url/to/img.png](https://user-images.githubusercontent.com/40500769/199322541-883ebba5-bbc2-4100-9ee2-16db03a3092b.png))
-
+![Screenshot](screenshot.png)
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
