@@ -70,7 +70,6 @@ Spark is an iOS app that connects electric/hybrid drivers to the nearest chargin
 ![Frame 1 (1)](https://user-images.githubusercontent.com/40500769/199324214-54d07e3c-5c30-4c8f-a73c-5c4d3c461e31.png)
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
 - Sign-in/Sign-up
 - Saved Locations
