@@ -40,20 +40,15 @@ Spark is an iOS app that connects electric/hybrid drivers to the nearest chargin
 ### 2. Screen Archetypes
 
 * Sign-in/Signup screen
-   * [list associated required story here]
-   * ...
+   * Users can Sign-in/Sign-up so that they can access potential features like "Saved Locations"
 * Search current location and search specified location screen
-   * [list associated required story here]
-   * ...
+   * User can search for nearby charger stations so they can easily charge their vehicle.
  * Charger station details screen
-   * [list associated required story here]
-   * ...
+   * User can see description of station so that they have all the information to make an informed decision
  * Profile details screen
-   * [list associated required story here]
-   * ...
+   * User can update username and password. 
  * Saved locations screen(optional)
-   * [list associated required story here]
-   * ...
+   * Users can save locations so that they can reference it later
   
 ### 3. Navigation
 
