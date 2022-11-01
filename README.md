@@ -62,7 +62,7 @@
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="![Untitled Diagram drawio (2)](https://user-images.githubusercontent.com/40500769/199322541-883ebba5-bbc2-4100-9ee2-16db03a3092b.png)" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
