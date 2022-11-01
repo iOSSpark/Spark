@@ -85,16 +85,16 @@ Spark is an iOS app that connects electric/hybrid drivers to the nearest chargin
 - Sign-in screen
   - (Read/GET) Query user account based on unique username and password
 - Sign-up screen
-  - (Create/POST) Query user account based on unique username and password
+  - (Create/POST) Create a new Spark account using unique username
 - Profile screen
-  - (Update/PUT) Query user account based on unique username and password
-  - (Update/PUT) Query user account based on unique username and password
-  - (Read/GET) Query user account based on unique username and password
+  - (Update/PUT) Update username
+  - (Update/PUT) Update user password
+  - (Read/GET) Query user account information
 - Search based on location screen
-  - (Read/GET) Query user account based on unique username and password
-  - (Create/POST) Query user account based on unique username and password
+  - (Read/GET) Query all locations nearby provided address
+  - (Create/POST) Create a new saved location
 - Station details screen
-  - (Read/GET) Query user account based on unique username and password
+  - (Read/GET) Query charging station details
 - Saved locations screen (optional)
-  - (Read/GET) Query user account based on unique username and password
-  - (Delete) Query user account based on unique username and password
+  - (Read/GET) Query saved location
+  - (Delete) Delete existing saved charging station
