@@ -96,3 +96,14 @@ Spark is an iOS app that connects electric/hybrid drivers to the nearest chargin
 - Saved locations screen (optional)
   - (Read/GET) Query saved location
   - (Delete) Delete existing saved charging station
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+Log In      |  Sign Up
+:-------------------------:|:-------------------------:
+![](http://g.recordit.co/alvkqpUu7M.gif) |  ![](http://g.recordit.co/3PrnD8ZLiz.gif)
+
+Launch Screen      | 
+:-------------------------:|
+![](http://g.recordit.co/3rLAxO2TyE.gif) |  
