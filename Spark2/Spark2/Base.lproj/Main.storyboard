@@ -111,8 +111,20 @@
                     <view key="view" contentMode="scaleToFill" id="gu3-XU-Txe">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zgb-wr-3Ue">
+                                <rect key="frame" x="0.0" y="56" width="393" height="727"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="fXG-zm-qPb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fXG-zm-qPb" firstAttribute="bottom" secondItem="zgb-wr-3Ue" secondAttribute="bottom" id="24G-Wh-Afg"/>
+                            <constraint firstItem="zgb-wr-3Ue" firstAttribute="top" secondItem="fXG-zm-qPb" secondAttribute="top" id="3E2-Ob-kg8"/>
+                            <constraint firstItem="fXG-zm-qPb" firstAttribute="trailing" secondItem="zgb-wr-3Ue" secondAttribute="trailing" id="Gnj-p3-Iap"/>
+                            <constraint firstItem="zgb-wr-3Ue" firstAttribute="leading" secondItem="fXG-zm-qPb" secondAttribute="leading" id="cur-4G-2Ed"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hVT-S5-l7R"/>
                 </viewController>
