@@ -114,3 +114,9 @@ Launch Screen      |
 Station Details Screen      | 
 :-------------------------:|
 ![](http://g.recordit.co/7ERKiIbrE5.gif) |  
+
+Station Details Screen      | 
+:-------------------------:|
+![](Updated Launch Screen      | 
+:-------------------------:|
+![](http://g.recordit.co/7ERKiIbrE5.gif) |  ) |  
