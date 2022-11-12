@@ -15,6 +15,8 @@
 		DC2B7805291320DB0073E6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2B7803291320DB0073E6A6 /* LaunchScreen.storyboard */; };
 		DC83FCED29132A8C00314C74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83FCEC29132A8C00314C74 /* LoginViewController.swift */; };
 		DC83FCEF29132ACC00314C74 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83FCEE29132ACC00314C74 /* FeedViewController.swift */; };
+		DCCC143C291DE84F00FE9D14 /* StationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC143B291DE84F00FE9D14 /* StationViewController.swift */; };
+		DCCC143E291DE90600FE9D14 /* StationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC143D291DE90600FE9D14 /* StationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		DC2B7806291320DB0073E6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC83FCEC29132A8C00314C74 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DC83FCEE29132ACC00314C74 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DCCC143B291DE84F00FE9D14 /* StationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewController.swift; sourceTree = "<group>"; };
+		DCCC143D291DE90600FE9D14 /* StationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,16 +86,34 @@
 		DC2B77F7291320DB0073E6A6 /* Spark2 */ = {
 			isa = PBXGroup;
 			children = (
+				DCCC143A291DE5FA00FE9D14 /* Controller */,
+				DCCC1439291DE5E300FE9D14 /* View */,
 				DC2B77F8291320DB0073E6A6 /* AppDelegate.swift */,
 				DC2B77FA291320DB0073E6A6 /* SceneDelegate.swift */,
-				DC2B77FE291320DB0073E6A6 /* Main.storyboard */,
 				DC2B7801291320DB0073E6A6 /* Assets.xcassets */,
-				DC2B7803291320DB0073E6A6 /* LaunchScreen.storyboard */,
 				DC2B7806291320DB0073E6A6 /* Info.plist */,
-				DC83FCEC29132A8C00314C74 /* LoginViewController.swift */,
-				DC83FCEE29132ACC00314C74 /* FeedViewController.swift */,
 			);
 			path = Spark2;
+			sourceTree = "<group>";
+		};
+		DCCC1439291DE5E300FE9D14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC2B7803291320DB0073E6A6 /* LaunchScreen.storyboard */,
+				DC2B77FE291320DB0073E6A6 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCCC143A291DE5FA00FE9D14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC83FCEE29132ACC00314C74 /* FeedViewController.swift */,
+				DC83FCEC29132A8C00314C74 /* LoginViewController.swift */,
+				DCCC143B291DE84F00FE9D14 /* StationViewController.swift */,
+				DCCC143D291DE90600FE9D14 /* StationCell.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +233,10 @@
 			files = (
 				DC83FCED29132A8C00314C74 /* LoginViewController.swift in Sources */,
 				DC2B77F9291320DB0073E6A6 /* AppDelegate.swift in Sources */,
+				DCCC143E291DE90600FE9D14 /* StationCell.swift in Sources */,
 				DC83FCEF29132ACC00314C74 /* FeedViewController.swift in Sources */,
 				DC2B77FB291320DB0073E6A6 /* SceneDelegate.swift in Sources */,
+				DCCC143C291DE84F00FE9D14 /* StationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +387,6 @@
 				DEVELOPMENT_TEAM = TYWTDH9X79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Spark2/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -393,7 +416,6 @@
 				DEVELOPMENT_TEAM = TYWTDH9X79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Spark2/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
