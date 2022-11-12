@@ -111,6 +111,6 @@ Launch Screen      |
 :-------------------------:|
 ![](http://g.recordit.co/3rLAxO2TyE.gif) |  
 
-Launch Screen      | 
+Station Details Screen      | 
 :-------------------------:|
 ![](http://g.recordit.co/7ERKiIbrE5.gif) |  
