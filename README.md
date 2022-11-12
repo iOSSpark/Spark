@@ -110,3 +110,7 @@ Log In      |  Sign Up
 Launch Screen      | 
 :-------------------------:|
 ![](http://g.recordit.co/3rLAxO2TyE.gif) |  
+
+Launch Screen      | 
+:-------------------------:|
+![](http://g.recordit.co/7ERKiIbrE5.gif) |  
