@@ -120,6 +120,6 @@ Station Details Screen      |
 :-------------------------:|
 ![](http://g.recordit.co/cYdWtc1OWI.gif) |  
 
- Updated Signin Screen      | 
-:-------------------------:|
-![](http://g.recordit.co/PHeFtrLCsv.gif) |  
+ Updated Signin Screen      | Updated Signup Screen
+:-------------------------:|:-------------------------:
+![](http://g.recordit.co/PHeFtrLCsv.gif) | ![](http://g.recordit.co/GH71L5IQwL.gif)
