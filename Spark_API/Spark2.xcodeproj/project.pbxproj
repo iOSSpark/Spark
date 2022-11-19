@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		22BCB7DEA91EEE11CDA1577C /* Pods_Spark2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4FD84564470C21E1A872A1 /* Pods_Spark2.framework */; };
+		C82D2D352920266300742928 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82D2D342920266300742928 /* LocationManager.swift */; };
+		C82D2D372921D91700742928 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82D2D362921D91700742928 /* SignUpViewController.swift */; };
+		C82D2D392922C72C00742928 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C82D2D382922C72C00742928 /* data.json */; };
+		C83249732925CF9200489476 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83249722925CF9200489476 /* Model.swift */; };
+		C89DD2D7291F2E3A00D1569E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89DD2D6291F2E3A00D1569E /* MapView.swift */; };
 		DC2B77F9291320DB0073E6A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B77F8291320DB0073E6A6 /* AppDelegate.swift */; };
 		DC2B77FB291320DB0073E6A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B77FA291320DB0073E6A6 /* SceneDelegate.swift */; };
 		DC2B7800291320DB0073E6A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2B77FE291320DB0073E6A6 /* Main.storyboard */; };
@@ -23,6 +28,11 @@
 		1EE47BFC4960C8409132BE2F /* Pods-Spark2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spark2.release.xcconfig"; path = "Target Support Files/Pods-Spark2/Pods-Spark2.release.xcconfig"; sourceTree = "<group>"; };
 		3E5D0EE51FA2E38EDAFFFCA7 /* Pods-Spark2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spark2.debug.xcconfig"; path = "Target Support Files/Pods-Spark2/Pods-Spark2.debug.xcconfig"; sourceTree = "<group>"; };
 		BC4FD84564470C21E1A872A1 /* Pods_Spark2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spark2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82D2D342920266300742928 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C82D2D362921D91700742928 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C82D2D382922C72C00742928 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		C83249722925CF9200489476 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C89DD2D6291F2E3A00D1569E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		DC2B77F5291320DB0073E6A6 /* Spark2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spark2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2B77F8291320DB0073E6A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC2B77FA291320DB0073E6A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +73,15 @@
 				1EE47BFC4960C8409132BE2F /* Pods-Spark2.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8E50AC12923017F0090F3DD /* EVRouting */ = {
+			isa = PBXGroup;
+			children = (
+				C82D2D382922C72C00742928 /* data.json */,
+				C83249722925CF9200489476 /* Model.swift */,
+			);
+			path = EVRouting;
 			sourceTree = "<group>";
 		};
 		DC2B77EC291320DB0073E6A6 = {
@@ -108,10 +127,14 @@
 		DCCC143A291DE5FA00FE9D14 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C8E50AC12923017F0090F3DD /* EVRouting */,
 				DC83FCEE29132ACC00314C74 /* FeedViewController.swift */,
 				DC83FCEC29132A8C00314C74 /* LoginViewController.swift */,
+				C82D2D362921D91700742928 /* SignUpViewController.swift */,
 				DCCC143B291DE84F00FE9D14 /* StationViewController.swift */,
 				DCCC143D291DE90600FE9D14 /* StationCell.swift */,
+				C89DD2D6291F2E3A00D1569E /* MapView.swift */,
+				C82D2D342920266300742928 /* LocationManager.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +202,7 @@
 				DC2B7805291320DB0073E6A6 /* LaunchScreen.storyboard in Resources */,
 				DC2B7802291320DB0073E6A6 /* Assets.xcassets in Resources */,
 				DC2B7800291320DB0073E6A6 /* Main.storyboard in Resources */,
+				C82D2D392922C72C00742928 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,8 +259,12 @@
 				DC2B77F9291320DB0073E6A6 /* AppDelegate.swift in Sources */,
 				DCCC143E291DE90600FE9D14 /* StationCell.swift in Sources */,
 				DC83FCEF29132ACC00314C74 /* FeedViewController.swift in Sources */,
+				C82D2D352920266300742928 /* LocationManager.swift in Sources */,
+				C83249732925CF9200489476 /* Model.swift in Sources */,
 				DC2B77FB291320DB0073E6A6 /* SceneDelegate.swift in Sources */,
+				C82D2D372921D91700742928 /* SignUpViewController.swift in Sources */,
 				DCCC143C291DE84F00FE9D14 /* StationViewController.swift in Sources */,
+				C89DD2D7291F2E3A00D1569E /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,11 +415,14 @@
 				DEVELOPMENT_TEAM = TYWTDH9X79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Spark2/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For the users location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -416,11 +447,14 @@
 				DEVELOPMENT_TEAM = TYWTDH9X79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Spark2/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For the users location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
